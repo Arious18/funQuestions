@@ -10,16 +10,16 @@ export function Questions({ onComplete }: QuestionsProps) {
 
   const questions = [
     {
-      question: "What's your favorite food? I'll take you there! 🍝",
-      options: ["Italian", "Japanese", "Mexican", "Surprise me!"],
+      question: "Gowy goryan naharyn name ? Seni Sol taya akideyin! 🍝",
+      options: ["Turkmen", "Japanese", "Mexican", "Surprise me!"],
     },
     {
-      question: "Pick our first date activity! 🎬",
-      options: ["Movie Night", "Picnic in the Park", "Coffee Date", "Adventure Time"],
+      question: "Ilkinji dusysygymyzyn Yerini belle! 🎬",
+      options: ["Cinema gijesi", "parkda", "Coffe dususyk", "Gowy wagt gecirjek yerimiz"],
     },
     {
-      question: "When should we go? ⏰",
-      options: ["This Weekend", "Next Week", "ASAP!", "Whenever you're free"],
+      question: "nira gideli? ⏰",
+      options: ["Bu hepde", "Sonky hepde", "hazir!", "Hacan bos bolsan sonda gideris"],
     },
   ];
 

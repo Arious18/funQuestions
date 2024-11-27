@@ -3,7 +3,7 @@ import { Heart, Instagram, Twitter, Github, Music, Star, ExternalLink } from 'lu
 
 export function Congratulations() {
   const socialLinks = [
-    { icon: Instagram, href: "https://instagram.com/yourusername", label: "Instagram", color: "text-pink-500", bgColor: "bg-pink-50" },
+    { icon: Instagram, href: "https://instagram.com/developer.azatik", label: "Instagram", color: "text-pink-500", bgColor: "bg-pink-50" },
     { icon: Twitter, href: "https://twitter.com/yourusername", label: "Twitter", color: "text-blue-400", bgColor: "bg-blue-50" },
     { icon: Github, href: "https://github.com/yourusername", label: "Github", color: "text-gray-700", bgColor: "bg-gray-50" },
     { icon: Music, href: "https://spotify.com/yourusername", label: "Spotify", color: "text-green-500", bgColor: "bg-green-50" }
@@ -20,7 +20,7 @@ export function Congratulations() {
       
       <div className="space-y-4 mb-8">
         <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">
-          It's a Match! 🎉
+          Bu bir dusysyk! 🎉
         </h1>
         <div className="flex justify-center gap-2">
           {[...Array(5)].map((_, i) => (
@@ -28,13 +28,13 @@ export function Congratulations() {
           ))}
         </div>
         <p className="text-lg md:text-xl text-gray-600 animate-pulse">
-          Can't wait to see you! 💖
+     Garasasym gelenok! 💖
         </p>
       </div>
 
       <div className="p-6 bg-gradient-to-r from-pink-50 to-purple-50 rounded-xl shadow-inner">
         <p className="text-sm md:text-base text-gray-600 mb-4 font-medium">
-          Let's stay connected:
+          ulgamda galalyn :
         </p>
         <div className="grid grid-cols-2 gap-4">
           {socialLinks.map(({ icon: Icon, href, label, color, bgColor }) => (

@@ -21,20 +21,19 @@ export function DateProposal({ onYes }: DateProposalProps) {
         <Heart className="w-20 h-20 text-red-500 mx-auto" />
       </div>
       <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-        Will you go on a date with me?
+        Men bn dasaryk gidersinmi?
       </h1>
       <div className="space-x-4">
         <button
           onClick={onYes}
           className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full transform hover:scale-105 transition-all"
         >
-          Yes 😊
+        Howwa 😊
         </button>
         <button
           onMouseEnter={handleNoHover}
           className="bg-gray-500 text-white font-bold py-3 px-8 rounded-full absolute"
-        >
-          No 😢
+        >Yok 😢
         </button>
       </div>
     </div>

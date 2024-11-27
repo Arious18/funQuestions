@@ -3,7 +3,7 @@ import { Heart, Instagram, Twitter, Facebook } from 'lucide-react';
 
 export function Congratulations() {
   const socialLinks = [
-    { icon: Instagram, href: "https://instagram.com/yourusername", label: "Instagram" },
+    { icon: Instagram, href: "https://instagram.com/developer.azatik", label: "Instagram" },
     { icon: Twitter, href: "https://twitter.com/yourusername", label: "Twitter" },
     { icon: Facebook, href: "https://facebook.com/yourusername", label: "Facebook" },
   ];
@@ -14,10 +14,10 @@ export function Congratulations() {
         <Heart className="w-20 h-20 text-red-500 mx-auto fill-current" />
       </div>
       <h1 className="text-4xl font-bold text-gray-800 mb-4">
-        Yay! It's a date! 🎉
+        bor  bu bizin ilkinji dususyk 🎉
       </h1>
       <p className="text-xl text-gray-600 mb-8">
-        I'm so excited to spend time with you! 💖
+       men gaty howesli sen bn gitjegim ucin 💖
       </p>
       <div className="space-y-4">
         <p className="text-lg text-gray-700">Let's stay connected:</p>

@@ -8,11 +8,11 @@ export function DateProposal({ onYes }) {
   const [noButtonStyle, setNoButtonStyle] = useState({});
 
   const phrases = [
-    "No 😢", "Are you sure?", "Really sure?", "Think again!", "Last chance!",
-    "Surely not?", "You might regret this!", "Give it another thought!",
-    "Are you absolutely sure?", "This could be a mistake!", "Have a heart!",
-    "Don't be so cold!", "Change of heart?", "Wouldn't you reconsider?",
-    "Is that your final answer?", "You're breaking my heart 💔"
+    "Ýok 😢", "Eminmi?", "Hakykatdanam eminmi?", "Ýene bir pikirlen!", "Soňky mümkinçilik!",
+    "Elbetde dälmi?", "Munuň üçin ökünersiň!", "Ýene bir gezek pikir et!",
+    "Hakykatdan doly eminmi?", "Bu ýalňyşlyk bolup biler!", "Rehim edäý!",
+    "Şeýle sowuk bolma!", "Göwnüňi üýtgedäýmezmiň?", "Gaýtadan gözden geçirersiňmi?",
+    "Bu soňky jogabyňmy?", "Kalbymy döwýäň 💔"
   ];
 
   useEffect(() => {
@@ -85,7 +85,7 @@ export function DateProposal({ onYes }) {
       </div>
 
       <h1 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600 mb-8">
-        Will you go on a date with me? 🌹
+        Men bn aylanmana gidersinmi🌹
       </h1>
 
       <div className="flex flex-col gap-6 items-center relative">
@@ -94,7 +94,7 @@ export function DateProposal({ onYes }) {
           style={{ transform: `scale(${yesScale})` }}
           className="min-w-[200px] z-20"
         >
-          Yes 😊
+         Howwa
         </Button>
 
         <Button

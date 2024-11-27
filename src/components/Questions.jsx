@@ -9,18 +9,18 @@ export function Questions({ onComplete }) {
 
   const questions = [
     {
-      question: "Pick your dream date location! 🌟",
-      options: ["Romantic Restaurant 🍝", "Beach Sunset 🌅", "Amusement Park 🎡", "Cozy Cafe ☕"],
+      question: "Dusysyk yrimizi belle!! 🌟",
+      options: ["Romantic Restaurant 🍝", "Col gun batymy 🌅", "Jadyly Park 🎡", "Yssy Cafe ☕"],
       emoji: "🌅"
     },
     {
-      question: "What should we do first? 🎬",
-      options: ["Watch a Movie 🎬", "Take a Walk 🚶‍♀️", "Get Ice Cream 🍦", "Play Games 🎮"],
+      question: "Ilk dusysykda name edeli? 🎬",
+      options: ["Kino gorli 🎬", "Yorali 🚶‍♀️", "Marozny iyeli 🍦", "Oyun oynaly 🎮"],
       emoji: "🎮"
     },
     {
-      question: "When are you free? ⌚",
-      options: ["This Weekend 📅", "Next Week 📆", "Right Now! ⚡", "You Choose! 🎯"],
+      question: "Hacan bos bolyan? ⌚",
+      options: ["bu hepde 📅", "Sonky hepde📆", "Hazir! ⚡", "Sen sayla! 🎯"],
       emoji: "📅"
     }
   ];
